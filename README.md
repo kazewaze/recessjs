@@ -4,6 +4,10 @@
 
 ## Version 1.0 is Ready! More Features and Official Docs Coming Soon!
 
+Roadmap:
+  - Toolbar option (copy-to-clipboard, reset-code, save, etc.)
+  - The rest is Top Secret =)
+
 Eazy Peazy Playground Components for React.js (Just Plug and Play!)
 
 Recess.js is built on top of [React-Live](https://github.com/FormidableLabs/react-live), an awesome project by [Formidable](https://formidable.com) for building a Playground Component.
@@ -42,7 +46,10 @@ import styled from 'styled-components';
 import code from './code';
 
 // The chosen theme for Recess.js
+// Change "github" to the name of the theme you want.
+// Eazy Peazy! Dracula is the default.
 import theme from 'prism-react-renderer/themes/github';
+import otherTheme from 'prism-react-renderer/themes/dracula';
 
 function App() {
   return (
