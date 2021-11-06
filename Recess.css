@@ -1,0 +1,58 @@
+/* Default Styling for Recess.js */
+/* Feel Free to tailor it to your liking =) */
+
+.Playground {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 750px;
+}
+
+.Playground__Header {
+  height: 35px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  color: #a6b1bc;
+  background-color: #2b333b;
+}
+
+.Playground__Header h3 {
+  margin-left: 14px;
+  font-size: 14px;
+  font-weight: 900;
+}
+
+.LivePreview {
+  width: 85%;
+  border-radius: 8px;
+  margin-top: 25px;
+  margin-bottom: 50px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.LivePreview > div {
+  padding: 12px 24px;
+}
+
+.LivePreview__Container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #3e3f4a;
+  background-color: #282a36;
+}
+
+.LivePreview__Header h3 {
+  margin-top: 30px;
+  margin-left: 14px;
+  font-size: 17px;
+  font-weight: 900;
+  color: #a6b1bc;
+}

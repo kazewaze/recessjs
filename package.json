@@ -1,0 +1,69 @@
+{
+  "name": "recessjs",
+  "version": "1.0.4",
+  "description": "Eazy Peazy Playground Components for React.js",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "babel src -d build",
+    "release": "npm publish",
+    "test": "open-cli test/index.html"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KayceeIngram/recessjs.git"
+  },
+  "engines": {
+    "npm": ">= 2.0.0",
+    "node": ">= 0.12.0"
+  },
+  "keywords": [
+    "react",
+    "reactjs",
+    "react-live",
+    "react live",
+    "jsx",
+    "javascript",
+    "js",
+    "nodejs",
+    "component",
+    "components",
+    "playground",
+    "playgrounds",
+    "component playground",
+    "editor",
+    "code",
+    "code-editor",
+    "codeeditor",
+    "live",
+    "live edit",
+    "blog",
+    "articles",
+    "article",
+    "technical",
+    "editable"
+  ],
+  "author": "Kaycee Ingram <kayceewilliamingram@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KayceeIngram/recessjs/issues"
+  },
+  "homepage": "https://github.com/KayceeIngram/recessjs#readme",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-live": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "@babel/preset-react": "^7.14.5",
+    "open": "^8.3.0",
+    "open-cli": "^7.0.1"
+  }
+}
