@@ -6,12 +6,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
   max-width: 750px;
 }
 
 .Playground__Header {
   height: 35px;
-  width: 100%;
+  width: inherit;
   display: flex;
   align-items: center;
   border-top-left-radius: 8px;
@@ -26,6 +27,10 @@
   font-weight: 900;
 }
 
+.LiveEditor {
+  width: inherit;
+}
+
 .LivePreview {
   width: 85%;
   border-radius: 8px;
@@ -36,7 +41,7 @@
 }
 
 .LivePreview > div {
-  padding: 12px 24px;
+  padding: 25px;
 }
 
 .LivePreview__Container {

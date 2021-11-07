@@ -1,6 +1,6 @@
 {
   "name": "recessjs",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Eazy Peazy Playground Components for React.js",
   "main": "build/index.js",
   "scripts": {
