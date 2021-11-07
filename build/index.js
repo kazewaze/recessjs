@@ -9,11 +9,13 @@ var _react = _interopRequireDefault(require("react"));
 
 var _reactLive = require("react-live");
 
-var _settings = _interopRequireDefault(require("./config/settings"));
+var _settings = _interopRequireDefault(require("../config/settings"));
 
-var _mix = _interopRequireDefault(require("./config/mix.js"));
+var _mix = _interopRequireDefault(require("../config/mix.js"));
 
-require("./Recess.css");
+require("../config/Source_Code_Pro/SourceCodePro-Bold.ttf");
+
+require("../Recess.css");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 

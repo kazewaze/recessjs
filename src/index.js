@@ -7,9 +7,10 @@ import {
   LivePreview
 } from 'react-live';
 
-import settings from './config/settings';
-import mix from './config/mix.js';
-import './Recess.css';
+import settings from '../config/settings';
+import mix from '../config/mix.js';
+import '../config/Source_Code_Pro/SourceCodePro-Bold.ttf';
+import '../Recess.css';
 
 const Recess = (props) => {
   const code = props.code ? props.code : settings.code;

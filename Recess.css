@@ -1,6 +1,13 @@
 /* Default Styling for Recess.js */
 /* Feel Free to tailor it to your liking =) */
 
+@font-face {
+  font-family: "SourceCodeProBold";
+  src: local("SourceCodeProBold"),
+    url("../config/Source_Code_Pro/SourceCodePro-Bold.ttf");
+  font-weight: Bold;
+}
+
 .Playground {
   display: flex;
   flex-direction: column;
@@ -29,6 +36,7 @@
 
 .LiveEditor {
   width: inherit;
+  font-family: "SourceCodeProBold" !important;
 }
 
 .LivePreview {

@@ -4,15 +4,15 @@
 
 ## Version 1.0 is Ready! More Features and Official Docs Coming Soon!
 
-Roadmap:
-  - Toolbar option (copy-to-clipboard, reset-code, save, etc.)
-  - The rest is Top Secret =)
-
-Eazy Peazy Playground Components for React.js (Just Plug and Play!)
+Eazy Peazy Playground Components for React.js (Just Plug and Play)
 
 Recess.js is built on top of [React-Live](https://github.com/FormidableLabs/react-live), an awesome project by [Formidable](https://formidable.com) for building a Playground Component.
 
 The current 1.0 version of Recess.js is ready for use. For simple usage I have provided basic instructions below until the Docs are completed.
+
+If you want to use a different theme go here to see the other choices:
+
+[Available Themes](https://github.com/FormidableLabs/prism-react-renderer/tree/master/src/themes)
 
 Install Recess.js with npm or yarn:
 
@@ -35,9 +35,12 @@ import './App.css';
 import styled from 'styled-components';
 
 /*
-  You only need two imports after Recess.js
-  Recess.js is the only thing you have to install.
-  Just import Recess.js, your code for Recess.js, and your chosen theme.
+  Recess.js is the only thing you need to install.
+  You only need to import 3 things (Recess, Your code & Theme).
+  (Or only 2 things since a default theme is in place)
+  1.) import Recess from 'recessjs';
+  2.) import code from './code.js';
+  3.) import theme from 'prism-react-renderer/themes/<theme-name>';
   The themes that you can import and use are located at:
   https://github.com/FormidableLabs/prism-react-renderer/tree/master/src/themes
 */
@@ -91,7 +94,7 @@ Here is a snapshot of Recess.js without any arguments.
 Behold in all of it's default goodness:
 
 <p align="center">
-  <img style="max-width: 750px" height="75%" src="https://raw.githubusercontent.com/KayceeIngram/assets-holder/main/recess_default.png" alt="Recess.js Default Example"/>
+  <img style="max-width: 750px" height="75%" src="https://raw.githubusercontent.com/KayceeIngram/assets-holder/main/Recessjs_Default.png" alt="Recess.js Default Example"/>
 </p>
 
 **It is REQUIRED to include the render function at the end of each react app as you can see in the code.js file example below:**
@@ -138,6 +141,10 @@ const code = {
 };
 ```
 
-Cheers =)
+Roadmap:
+  - Toolbar option (copy-to-clipboard, reset-code, save, etc.)
+  - The rest is Top Secret =)
+
+Cheers
 
 Kaycee Ingram
