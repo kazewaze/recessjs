@@ -32,7 +32,9 @@ var Recess = function Recess(props) {
     className: "Playground__Header"
   }, /*#__PURE__*/_react["default"].createElement("h3", null, filename)), /*#__PURE__*/_react["default"].createElement(_reactLive.LiveProvider, {
     code: code,
-    scope: dep,
+    scope: {
+      dep: dep
+    },
     noInline: onInline,
     theme: theme
   }, /*#__PURE__*/_react["default"].createElement(_reactLive.LiveEditor, {
