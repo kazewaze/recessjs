@@ -26,7 +26,7 @@ const Recess = (props) => {
       <header className="Playground__Header">
         <h3>{filename}</h3>
       </header>
-      <LiveProvider code={code} scope={dep} noInline={onInline} theme={theme}>
+      <LiveProvider code={code} scope={{ dep }} noInline={onInline} theme={theme}>
         <LiveEditor className="LiveEditor" />
         <LiveError />
         <div style={{ backgroundColor: theme.plain.backgroundColor, borderTop: borderNew }} className="LivePreview__Container">
