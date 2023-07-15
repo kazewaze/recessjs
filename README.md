@@ -1,6 +1,6 @@
-<p align="center">
-# Recess.js
-</p>
+<h1 align="center">
+  Recess.js
+</h1>
 
 ## Version 1.0 is Ready! More Features and Official Docs Coming Soon!
 
