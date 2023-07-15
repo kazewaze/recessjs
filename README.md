@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/KayceeIngram/assets-holder/main/recess.svg" alt="Recess.js Logo"/>
+# Recess.js
 </p>
 
 ## Version 1.0 is Ready! More Features and Official Docs Coming Soon!
